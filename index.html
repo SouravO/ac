@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Skedara</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body class="text-gray-800 font-sans">
@@ -13,7 +14,7 @@
   <header class="flex flex-wrap justify-between items-center px-6 md:px-8 py-4 bg-white relative z-50 mx-4 md:mx-10">
     <!-- Logo -->
     <div class="flex items-center space-x-2">
-      <img src="logo.png" class="h-8 ml-4" alt="logo" />
+      <img src="images/logo.png" class="h-12 ml-4" alt="logo" />
     </div>
 
     <!-- Desktop Navigation -->
@@ -29,7 +30,8 @@
       </div>
 
       <button
-        class="hidden md:inline-block md:mt-0 ml-4 bg-blue-900 text-white px-4 py-2 rounded-full text-sm font-semibold">
+        class="hidden md:inline-block md:mt-0 ml-4 text-white px-4 py-2 rounded-full text-sm font-semibold"
+        style="background-color: var(--color-dark-blue);">
         Talk To Experts
       </button>
     </nav>
@@ -97,7 +99,7 @@
   <section class="relative md:mx-6">
     <!-- Background Image with Overlay -->
     <div class="absolute inset-0 bg-gradient-to-br z-10"></div>
-    <img src="./Group 9.png" alt="Hero Image" class="w-full object-cover" />
+    <img src="images/./Group 9.png" alt="Hero Image" class="w-full object-cover" />
 
     <!-- Text Content -->
     <div class="absolute top-20 left-1/9 z-20 text-white px-6">
@@ -112,7 +114,9 @@
         sustainable and innovative solutions.
       </p>
       <div class="mt-6 flex gap-4">
-        <button class="bg-blue-900 text-white px-5 py-2 rounded-full font-medium">
+        <button class=" text-white px-5 py-2 rounded-full font-medium"
+                style="background-color: var(--color-dark-blue);">
+
           Discover Our Services
         </button>
         <button class="border border-white text-white px-5 py-2 rounded-full font-medium">
@@ -121,75 +125,75 @@
       </div>
     </div>
     <div class="absolute bottom-10 left-0">
-      <img src="whyLogo.png" class="relative left-10" alt="" />
+      <img src="images/whyLogo.png" class="relative left-10" alt="" />
     </div>
   </section>
   <!-- card section -->
   <section class="relative h-auto">
     <div
       class="flex flex-col md:flex-row flex-wrap justify-center items-center md:items-stretch gap-x-4 gap-y-10 px-6 mt-10 md:w-5/6 md:ml-auto relative">
-      <div class="w-80 rounded-xl relative h-full ">
+      <div class="w-80 rounded-xl relative h-100 ">
         <div class="top-triangle bg-[#d2e0f6] h-10 w-[97%] absolute -top-10 right-0 shadow-lg"
           style="clip-path: polygon(321px 41px, 100% 0px, 0% 100%)"></div>
         <div class="bg-[#d2e0f6] space-y-10 p-4 pt-8 rounded-b-xl rounded-l-xl rounded-bl-xl h-full">
           <!-- Heading -->
-          <h3 class="text-2xl font-semibold text-[#004A77]">
+          <h3 class="text-2xl font-medium dark-blue">
             Tailored Solutions With<br />Excellence
           </h3>
 
           <!-- Icon Placeholder -->
-          <img src="hugeicons_ai-idea.png" alt="" height="30%" width="30%" />
+          <img src="images/hugeicons_ai-idea.png" alt="" height="30%" width="30%" />
           <!-- Description -->
           <p class="text-[#00354E] leading-snug">
             From Energy Trading System Reliability To Renewable Integration,
-            <span class="font-semibold">Skedara</span> Transforms IT
+            <span class="font-medium">Skedara</span> Transforms IT
             Operations Into Engines Of Growth With Sustainable And Innovative
             Solutions.
           </p>
         </div>
       </div>
-      <div class="w-80 rounded-xl relative h-full ">
+      <div class="w-80 rounded-xl relative h-100 ">
         <div class="top-triangle bg-[#d2e0f6] h-10 w-[97%] absolute -top-10 right-0 shadow-lg"
           style="clip-path: polygon(321px 41px, 100% 0px, 0% 100%)"></div>
         <div class="bg-[#d2e0f6] space-y-10 p-4 pt-8 rounded-b-xl rounded-l-xl rounded-bl-xl h-full">
           <!-- Heading -->
-          <h3 class="text-2xl font-semibold text-[#004A77] underline underline-offset-2">
+          <h3 class="text-2xl font-medium dark-blue  ">
             Leading IT Toward a <br />Greener Future
           </h3>
 
           <!-- Icon Placeholder -->
-          <img src="Frame.png" alt="" height="30%" width="30%" />
+          <img src="images/Frame.png" alt="" height="30%" width="30%" />
           <!-- Description -->
           <p class="text-[#00354E] leading-snug">
             Committed to net zero by 2025,
-            <span class="font-semibold">Skedara</span> integrates green IT to
+            <span class="font-medium">Skedara</span> integrates green IT to
             help businesses meet ESG goals and sustainability mandates.
             Solutions.
           </p>
         </div>
       </div>
-      <div class="w-80 rounded-xl relative h-full">
+      <div class="w-80 rounded-xl relative h-100 mb-30">
         <div class="top-triangle bg-[#d2e0f6] h-10 w-[97%] absolute -top-10 right-0 shadow-lg"
           style="clip-path: polygon(321px 41px, 100% 0px, 0% 100%)"></div>
         <div class="bg-[#d2e0f6] space-y-10 p-4 pt-8 rounded-b-xl rounded-l-xl rounded-bl-xl h-full">
           <!-- Heading -->
-          <h3 class="text-2xl font-semibold text-[#004A77] underline underline-offset-2">
-            Global Talent <br />Partnerships
+          <h3 class="text-2xl font-medium dark-blue ">
+            Global Talent Partnerships
           </h3>
 
           <!-- Icon Placeholder -->
-          <img src="Frame (1).png" alt="" height="30%" width="30%" />
+          <img src="images/Frame (1).png" alt="" height="30%" width="30%" />
           <!-- Description -->
           <p class="text-[#00354E] leading-snug">
             Rooted in India’s thriving tech ecosystem and powered by global
             talent networks
-            <span class="font-semibold">Skedara</span>connects expertise with
+            <span class="font-medium">Skedara</span>connects expertise with
             challenges to deliver measurable results.
           </p>
         </div>
       </div>
     </div>
-    <span><img src="Group 27.png" class="absolute bottom-0 left-0 w-24 md:w-32 lg:w-40" alt="" /></span>
+    <span><img src="images/Group 27.png" class="absolute bottom-0 left-0 w-24 md:w-32 lg:w-40" alt="" /></span>
   </section>
   <!-- our service -->
   <section id="service" class="bg-[#F2FAFD] py-16 px-6 md:px-20 relative">
@@ -209,7 +213,8 @@
           Ensuring Resilience And Measurable Outcomes
         </p>
         <button
-          class="mt-4 bg-gradient-to-r from-[#003F88] to-[#0077B6] text-white text-sm font-semibold px-6 py-2 rounded-full shadow hover:opacity-90 transition">
+          class="mt-4  text-white text-sm font-semibold px-6 py-2 rounded-full shadow hover:opacity-90 transition"
+          style="background-color: var(--color-dark-blue);">
           Discover Our Services
         </button>
       </div>
@@ -217,7 +222,7 @@
       <!-- Right Image & Cards -->
       <div class="w-full md:w-1/2 relative h-100">
         <!-- Solar Image -->
-        <img src="solar.png" alt="Solar Panels" class="w-full rounded-xl object-cover" />
+        <img src="images/solar.png" alt="Solar Panels" class="w-full rounded-xl object-cover" />
 
         <!-- Info Cards -->
         <div
@@ -227,14 +232,14 @@
             <h4 class="text-lg font-semibold text-[#00354E] mb-2">
               Core Services: <br />Energy IT Operations
             </h4>
-            <p class="text-xs font-semibold text-[#0077B6] mb-1">
+            <p class="text-xs font-semibold dark-blue mb-1">
               + Capabilities:
             </p>
             <p class="text-sm text-[#333] mb-2 leading-tight">
               24/7 Monitoring, Incident Management, Trading Reliability, SRE,
               And Compliance.
             </p>
-            <p class="text-xs font-semibold text-[#38B000] mb-1">
+            <p class="text-xs font-semibold dark-blue mb-1">
               + Value Proposition:
             </p>
             <p class="text-sm text-[#333] leading-tight">
@@ -248,14 +253,14 @@
             <h4 class="text-lg font-semibold text-[#00354E] mb-2">
               Beyond Energy:<br />Tailored Industry Solutions
             </h4>
-            <p class="text-xs font-semibold text-[#0077B6] mb-1">
+            <p class="text-xs font-semibold dark-blue mb-1">
               + Capabilities:
             </p>
             <p class="text-sm text-[#333] mb-2 leading-tight">
               Business Consulting, IT Strategy, And Custom Compliance
               Solutions
             </p>
-            <p class="text-xs font-semibold text-[#38B000] mb-1">
+            <p class="text-xs font-semibold dark-blue mb-1">
               + Value Proposition:
             </p>
             <p class="text-sm text-[#333] leading-tight">
@@ -274,7 +279,7 @@
       <div class="relative w-full md:w-1/2">
         <!-- Handshake Image -->
         <div class="relative rounded-xl overflow-hidden">
-          <img src="Group 41.png" alt="Handshake" class="w-full max-w-md rounded-xl shadow" />
+          <img src="images/Group 41.png" alt="Handshake" class="w-full max-w-md rounded-xl shadow" />
 
           <!-- Uptime Box -->
         </div>
@@ -295,7 +300,8 @@
           Compliance Readiness.
         </p>
         <button
-          class="mt-6 bg-gradient-to-r from-[#003F88] to-[#0077B6] text-white text-sm font-semibold px-6 py-2 rounded-full shadow hover:opacity-90 transition">
+          class="mt-6 text-white text-sm font-semibold px-6 py-2 rounded-full shadow hover:opacity-90 transition"
+          style="background-color: var(--color-dark-blue);">
           Discover More
         </button>
       </div>
@@ -320,12 +326,12 @@
       <div class="flex flex-col gap-8 items-center w-full z-20">
         <!-- ISO 14001 Badge + Text -->
         <div class="flex items-center gap-6">
-          <img src="iso14001.png" alt="ISO 14001" class="w-20 h-20 object-contain" />
+          <img src="images/iso14001.png" alt="ISO 14001" class="w-20 h-20 object-contain" />
           <div class="bg-white rounded-xl shadow px-6 py-4 max-w-md">
-            <h3 class="font-bold text-[#00354E] text-base mb-1">
+            <h3 class="font-bold text-[#00354E] text-2xl mb-1">
               ISO 14001:
             </h3>
-            <p class="text-sm text-[#00354E]">
+            <p class="text-base text-[#00354E]">
               Committed To Net Zero Emissions By 2025, Reflecting Our
               Dedication To Sustainable Practices.
             </p>
@@ -335,15 +341,15 @@
         <!-- ISO 27001 Text + Badge -->
         <div class="flex items-center justify-end gap-6">
           <div class="bg-white rounded-xl shadow px-6 py-4 max-w-md text-right">
-            <h3 class="font-bold text-[#00354E] text-base mb-1">
+            <h3 class="font-bold text-[#00354E] text-2xl mb-1">
               ISO 27001:
             </h3>
-            <p class="text-sm text-[#00354E]">
+            <p class="text-base text-[#00354E]">
               Strengthening Secure IT Operations For Energy And Finance
               Clients.
             </p>
           </div>
-          <img src="iso27001.png" alt="ISO 27001" class="w-20 h-20 object-contain" />
+          <img src="images/iso27001.png" alt="ISO 27001" class="w-20 h-20 object-contain" />
         </div>
       </div>
 
@@ -354,7 +360,7 @@
         </button>
       </div>
       <div class="">
-        <img src="Group 51.png" class="absolute sm:bottom-30 lg:bottom-0 right-0 w-24 md:w-32 lg:w-40" alt="" />
+        <img src="images/Group 51.png" class="absolute sm:bottom-30 lg:bottom-0 right-0 w-24 md:w-32 lg:w-40" alt="" />
       </div>
     </div>
   </section>
@@ -374,7 +380,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- Card 1 -->
       <div class="rounded-xl relative shadow-md mb-20">
-        <img src="blog1.png" alt="Solar Blog" class="w-7/8 h-48 object-cover rounded-xl" />
+        <img src="images/blog1.png" alt="Solar Blog" class="w-7/8 h-48 object-cover rounded-xl" />
         <div class="p-6 text-[#002B5B] w-3/4 bg-white z-10 absolute top-30 rounded-xl">
           <h3 class="font-bold text-base mb-2">
             The Silent Power Behind Energy Stability: Why IT Operations Are
@@ -395,7 +401,7 @@
 
       <!-- Card 2 -->
       <div class="rounded-xl relative shadow-md mb-20">
-        <img src="blog2.png" alt="Wind Blog" class="w-full h-48 object-cover rounded-xl" />
+        <img src="images/blog2.png" alt="Wind Blog" class="w-full h-48 object-cover rounded-xl" />
         <div class="p-6 text-[#002B5B] w-3/4 bg-white z-10 absolute top-30 rounded-xl">
           <h3 class="font-bold text-base mb-2">
             Green IT: How Sustainable Practices Are Reshaping Energy
@@ -416,7 +422,7 @@
 
       <!-- Card 3 -->
       <div class="rounded-xl relative shadow-md mb-20">
-        <img src="blog3.png" alt="People Blog" class="w-full h-48 object-cover rounded-xl" />
+        <img src="images/blog3.png" alt="People Blog" class="w-full h-48 object-cover rounded-xl" />
         <div class="p-6 text-[#002B5B] w-3/4 bg-white z-10 absolute top-30 rounded-xl">
           <h3 class="font-bold text-base mb-2">
             The Secret Ingredient Of Success: Why People Matter More Than Ever
@@ -436,7 +442,7 @@
       </div>
     </div>
     <div class="bg-red-500">
-      <img src="Vector 6.png" alt="" class="absolute top-1 right-15 h-full w-3/10" />
+      <img src="images/Vector 6.png" alt="" class="absolute top-1 right-15 h-full w-3/10" />
     </div>
   </section>
 
@@ -494,10 +500,10 @@
           <div class="md:absolute -right-10 h-full z-1">
             <div class="relative h-100">
               <!-- Arrow -->
-              <img src="arrow.png" alt="Arrow" class="absolute top-5 right-40 w-20 z-10" />
+              <img src="images/arrow.png" alt="Arrow" class="absolute  right-30 w-20 z-10 " />
 
               <!-- Bulb -->
-              <img src="bulb.png" alt="Bulb" class="w-full h-full object-contain z-0 md:mt-20" />
+              <img src="images/bulb.png" alt="Bulb" class="w-full h-full object-contain z-0 md:mt-20" />
             </div>
           </div>
         </div>
@@ -507,9 +513,9 @@
   <footer id="footer" class="relative w-full">
     <div class="absolute -top-30 w-full">
       <div class="w-full md:h-120 p-8 relative"
-        style="background-image: url('Rectangle 22.png');background-size: cover;">
+        style="background-image: url('images/Rectangle 22.png');background-size: cover;">
         <div class="relative p-8 my-40 md:my-10">
-          <img src="image 2.png" alt="logo" class="md:ml-auto md:mr-0 mx-auto w-60 mb-4">
+          <img src="images/image 2.png" alt="logo" class="md:ml-auto md:mr-0 mx-auto w-60 mb-4">
           <p class="text-white md:text-right text-center md:ml-auto text-xl">On track to achieve ISO 27001, ISO 14001,
             <br> and SOC 2
             for
@@ -525,14 +531,14 @@
             <a href="#" class="text-white font-bold hover:underline">CONTACT</a>
           </div>
           <div class="flex justify-end gap-10  mt-10 ">
-            <img src="linkedin (2).png" alt="">
-            <img src="twitter.png" alt="">
-            <img src="facebook (1).png" alt="">
-            <img src="instagram.png" alt="">
+            <img src="images/linkedin (2).png" alt="">
+            <img src="images/twitter.png" alt="">
+            <img src="images/facebook (1).png" alt="">
+            <img src="images/instagram.png" alt="">
 
           </div>
         </div>
-        <img src="footer-icon.png" alt="footer-img" class="absolute bottom-0 left-0">
+        <img src="images/footer-icon.png" alt="footer-img" class="absolute bottom-0 left-0">
       </div>
     </div>
   </footer>
