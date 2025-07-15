@@ -65,53 +65,47 @@
     });
   </script>
 
-                    <!-- Hero Section -->
-     <section class="relative w-full">
-      <!-- Background Image with Overlay -->
-      <div class="absolute inset-0 bg-gradient-to-br z-10"></div>
-      <img
-        src="./Group 9.png"
-        alt="Hero Image"
-        class="w-full object-cover h-[120vh] "
-      />
+  <!-- Hero Section -->
+  <section class="relative w-full">
+    <!-- Background Image with Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-br z-10"></div>
+    <img src="./Group 9.png" alt="Hero Image" class="w-full object-cover h-[120vh] " />
 
-      <!-- Text Content -->
-      <div class="absolute top-20 left-1/9 z-20 text-white px-6 ">
-        <h1 class="text-2xl md:text-5xl font-bold py-2">
-          Global Experts in <span class="text-green-400">Energy</span> IT<br />
-          Operations | Driving Stability,<br />
-          Scalability, and <span class="text-green-500">Sustainability</span>.
-        </h1>
-        <p class="mt-4 max-w-2xl mx-auto text-3xl md:text-xl ">
-          From energy trading system reliability to renewable integration,
-          Skedara transforms IT operations into engines of growth with
-          sustainable and innovative solutions.
-        </p>
-        <div class="mt-6 flex gap-4">
-          <button
-            class="bg-blue-900 text-white px-5 py-2 rounded-full font-medium"
-          >
-            Discover Our Services
-          </button>
-          <button
-            class="border border-white text-white px-5 py-2 rounded-full font-medium"
-          >
-            Explore Case Studies
-          </button>
-        </div>
+    <!-- Text Content -->
+    <div class="absolute top-20 left-1/9 z-20 text-white px-6 ">
+      <h1 class="text-2xl md:text-5xl font-bold py-2">
+        Global Experts in <span class="text-green-400">Energy</span> IT<br />
+        Operations | Driving Stability,<br />
+        Scalability, and <span class="text-green-500">Sustainability</span>.
+      </h1>
+      <p class="mt-4 max-w-2xl mx-auto text-3xl md:text-xl ">
+        From energy trading system reliability to renewable integration,
+        Skedara transforms IT operations into engines of growth with
+        sustainable and innovative solutions.
+      </p>
+      <div class="mt-6 flex gap-4">
+        <button class="bg-blue-900 text-white px-5 py-2 rounded-full font-medium">
+          Discover Our Services
+        </button>
+        <button class="border border-white text-white px-5 py-2 rounded-full font-medium">
+          Explore Case Studies
+        </button>
       </div>
-      <div>
-        <img src="whyLogo.png" class="relative left-10" alt="" />
-      </div>
-    </section>
+    </div>
+    <div>
+      <img src="whyLogo.png" class="relative left-10" alt="" />
+    </div>
+  </section>
   <!-- card section -->
   <section class="relative lg:h-150 sm:h-auto">
     <div class="flex flex-wrap justify-end gap-x-10 gap-y-10 px-6">
-      <div class="w-80 bg-[#C2E6F2] rounded-xl shadow-lg px-4 pt-6 pb-4"
-        style="clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%)">
-        <div class="mt-6 space-y-10">
+      <div class="w-80 rounded-xl relative">
+        <div class="top-triangle bg-[#C2E6F2] h-10 w-[97%] absolute -top-10 right-0 shadow-lg"
+          style="clip-path: polygon(321px 41px, 100% 0px, 0% 100%);">
+        </div>
+        <div class="bg-[#C2E6F2] space-y-10 p-4 pt-8 rounded-b-xl rounded-l-xl rounded-bl-xl">
           <!-- Heading -->
-          <h3 class="text-2xl font-semibold text-[#004A77] underline underline-offset-2">
+          <h3 class="text-2xl font-semibold text-[#004A77]">
             Tailored Solutions With<br />Excellence
           </h3>
 
@@ -420,7 +414,7 @@
   <section id="sustainability" class="mt-10 h-full relative">
     <div class="h-full flex flex-col md:flex-row w-full">
       <!-- left side -->
-      <div class="w-2/9 h-full p-8">
+      <div class="w-full md:w-2/9 md:justify-center h-full md:p-8">
         <div class="bg-gray-300 w-16 h-16 rounded-full flex items-center pl-5 font-bold text-4xl mb-3">
           S
         </div>
@@ -439,8 +433,8 @@
         <div class="text-lg font-semibold mb-8">STREAM</div>
       </div>
       <!-- right side -->
-      <div class="w-7/9 h-auto bg-blue-50 flex justify-center">
-        <div class="flex w-[65%] justify-between align-center  pt-8 relative">
+      <div class="w-full md:w-7/9 h-auto bg-blue-50 flex justify-center">
+        <div class="flex md:w-[65%] w-full justify-between align-center  md:pt-8 relative">
           <div class="max-w-md px-6 py-8 z-10">
             <!-- Tag -->
             <p class="text-sm text-[#0077B6] font-semibold uppercase tracking-wide mb-2">
@@ -467,13 +461,13 @@
             </button>
           </div>
           <!-- Images (Bulb + Arrow) -->
-          <div class="absolute -right-20 h-full z-1">
-            <div class="relative">
+          <div class="md:absolute -right-10 h-full z-1">
+            <div class="relative h-100">
               <!-- Arrow -->
               <img src="arrow.png" alt="Arrow" class="absolute top-5 right-40 w-20 z-10" />
 
               <!-- Bulb -->
-              <img src="bulb.png" alt="Bulb" class="w-full object-contain z-0" />
+              <img src="bulb.png" alt="Bulb" class="w-full h-full object-contain z-0 md:mt-20" />
             </div>
           </div>
         </div>
